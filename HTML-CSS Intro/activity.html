@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="description" content="how Im gonna fail my 170 exam">
+        <meta name="author" content="Nathan Canera">
+        <title>a Header with a Title</title>
+        <link rel="stylesheet" href="activity.css">
     </head>
-    <body>
+    <body class = "bruh" id="bruh">
+        <div class = "parentDiv">
+            <header class = "breadder">Ways to fail a 170 exam</header>
+            <div class = "div">
+                <nav> 
+                    <li>Previous failed exams</li>
+                    <li>Reviews</li>
+                    <li>More "How to fail xyz" websites</li>
+                </nav>
+                <main id = "maintxt"> Past successfully failed exams</main>
+            </div>
+            <footer> *Failure not garunteed but highly likely*</footer>
+    <!--         
+            <script>
+                let d = new Date();
+                document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+            </script> -->
+
+            <button id = "bruhtton" onclick="dark()">darkmode</button>
+            <button id = "2bruhtton" onclick="light()">lightmode</button>
+            <script>
+                function dark() {
+                    var button = document.getElementById("bruhtton");
+                    button.style.background="#FF8E00";
+                    var el = document.getElementById("bruh");
+                    el.style.color="#FFFFFF";
+                    el.style.background="#242526";
+                }
+                function light() {
+                    var button = document.getElementById("2bruhtton");
+                    button.style.background="#F6FF00";
+                    var el = document.getElementById("bruh");
+                    el.style.color="#000000"
+                    el.style.background="#FFFFFF"
+
+                }
+            </script>
         
+        </div>
     </body>
 </html>

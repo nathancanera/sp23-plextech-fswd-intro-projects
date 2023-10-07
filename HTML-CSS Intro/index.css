@@ -16,8 +16,87 @@ p {
   height: 60px;
   background-color: green;
   margin-bottom: 20px;
+  justify-content: space-between;
+}
+.yellow9 {
+    background-color: yellow;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.green9 {
+    background-color: green;
+    width: 15px;
+    height: 60px;
 }
 
+.green8 {
+    background-color: green;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.yellow8 {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+}
+.red7 {
+    background-color: red;
+    justify-self: left;
+    height: 60px;
+    width: 60px;
+}
+
+.blue7 {
+    background-color: blue;
+    flex: 1;
+}
+.green7 {
+    background-color: green;
+    flex: 1;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.red6 {
+    background-color: red;
+    flex: 1;
+}
+.blue6 {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.red5 {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.red4 {
+    flex: 1;
+    background-color: red;
+    width: 80px;
+}
+
+.blue4 {
+    background-color: blue;
+    width: 80px;
+}
+
+.red3 {
+    background-color: red;
+    width: 80px;
+}
+
+.blue3 {
+    background-color: blue;
+    width: 80px;
+}
 /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
 
 .redExample {
